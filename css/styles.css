@@ -337,9 +337,12 @@ align-items: center;
 
 .customers-link:focus {
     border: 1px solid #404BBF;
-    
+   
 }
+.customers-link:hover .customers-icon,
 
+.customers-link:focus .customers-icon{
+fill: #404BBF;}
 /*------------------FOOTER--------------------*/
 .footer-link {
     font-family: 'Raleway', sans-serif;
